@@ -1,0 +1,11 @@
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsFormsApp2 with validation\WindowsFormsApp2 with validation\bin\Debug\WindowsFormsApp2 with validation.exe.config
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsFormsApp2 with validation\WindowsFormsApp2 with validation\bin\Debug\WindowsFormsApp2 with validation.exe
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsFormsApp2 with validation\WindowsFormsApp2 with validation\bin\Debug\WindowsFormsApp2 with validation.pdb
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsFormsApp2 with validation\WindowsFormsApp2 with validation\obj\Debug\WindowsFormsApp2 with validation.csproj.AssemblyReference.cache
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsFormsApp2 with validation\WindowsFormsApp2 with validation\obj\Debug\WindowsFormsApp2 with validation.csproj.SuggestedBindingRedirects.cache
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsFormsApp2 with validation\WindowsFormsApp2 with validation\obj\Debug\WindowsFormsApp2_with_validation.Form1.resources
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsFormsApp2 with validation\WindowsFormsApp2 with validation\obj\Debug\WindowsFormsApp2_with_validation.Properties.Resources.resources
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsFormsApp2 with validation\WindowsFormsApp2 with validation\obj\Debug\WindowsFormsApp2 with validation.csproj.GenerateResource.cache
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsFormsApp2 with validation\WindowsFormsApp2 with validation\obj\Debug\WindowsFormsApp2 with validation.csproj.CoreCompileInputs.cache
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsFormsApp2 with validation\WindowsFormsApp2 with validation\obj\Debug\WindowsFormsApp2 with validation.exe
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsFormsApp2 with validation\WindowsFormsApp2 with validation\obj\Debug\WindowsFormsApp2 with validation.pdb
