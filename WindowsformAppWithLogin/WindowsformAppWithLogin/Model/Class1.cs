@@ -9,13 +9,13 @@ namespace WindowsformAppWithLogin.Model
 {
     internal class Class1
     {
-        public bool Age_Above_30 { get; set; }
-        public bool Male { get; set; }
-        public bool Female { get; set; }
+       
         static private List<Class1> class1 = new List<Class1>();
         public string Id { get; set; }
         public string Name { get; set; }
-
+        public bool Age_Above_30 { get; set; }
+        public bool Male { get; set; }
+        public bool Female { get; set; }
         public string phone { get; set; }
 
         
