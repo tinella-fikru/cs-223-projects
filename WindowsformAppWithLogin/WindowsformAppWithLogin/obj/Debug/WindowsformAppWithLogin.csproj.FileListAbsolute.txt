@@ -1,0 +1,12 @@
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.csproj.AssemblyReference.cache
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.csproj.SuggestedBindingRedirects.cache
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.Form1.resources
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.Properties.Resources.resources
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.csproj.GenerateResource.cache
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.csproj.CoreCompileInputs.cache
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\bin\Debug\WindowsformAppWithLogin.exe.config
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\bin\Debug\WindowsformAppWithLogin.exe
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\bin\Debug\WindowsformAppWithLogin.pdb
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.exe
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.pdb
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.login.resources
