@@ -18,8 +18,7 @@ namespace WindowsformAppWithLogin.Model
         public bool Female { get; set; }
         public int phone { get; set; }
 
-       
-
+      
 
 
         public void save()
