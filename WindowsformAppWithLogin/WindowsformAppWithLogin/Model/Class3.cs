@@ -10,10 +10,10 @@ namespace WindowsformAppWithLogin.Model
     internal class Class3
     {
         static private List<Class3> class3 = new List<Class3>();
-        public static addProduct findProduct(string name)
+       /* public static addProduct findProduct(string name)
         {
             return getAllProducts().Find(class3 => c.Name == name);
-        }
+        }*/
        
         public void save()
         {
