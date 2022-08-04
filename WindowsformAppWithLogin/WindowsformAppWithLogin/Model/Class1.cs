@@ -16,7 +16,7 @@ namespace WindowsformAppWithLogin.Model
         public bool Age_Above_30 { get; set; }
         public bool Male { get; set; }
         public bool Female { get; set; }
-        public string phone { get; set; }
+        public int phone { get; set; }
 
         
 

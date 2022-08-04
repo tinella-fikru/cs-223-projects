@@ -53,7 +53,7 @@
             // btn_add
             // 
             this.btn_add.Location = new System.Drawing.Point(55, 475);
-            this.btn_add.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_add.Margin = new System.Windows.Forms.Padding(4);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(103, 32);
             this.btn_add.TabIndex = 0;
@@ -65,12 +65,13 @@
             // 
             this.btn_cancel.BackColor = System.Drawing.SystemColors.Control;
             this.btn_cancel.Location = new System.Drawing.Point(352, 475);
-            this.btn_cancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_cancel.Margin = new System.Windows.Forms.Padding(4);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(103, 32);
             this.btn_cancel.TabIndex = 1;
             this.btn_cancel.Text = "CANCEL";
             this.btn_cancel.UseVisualStyleBackColor = false;
+            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
             // lbl_id
             // 
@@ -105,7 +106,7 @@
             // txt_id
             // 
             this.txt_id.Location = new System.Drawing.Point(304, 74);
-            this.txt_id.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_id.Margin = new System.Windows.Forms.Padding(4);
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(136, 29);
             this.txt_id.TabIndex = 5;
@@ -113,7 +114,7 @@
             // txt_name
             // 
             this.txt_name.Location = new System.Drawing.Point(304, 157);
-            this.txt_name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_name.Margin = new System.Windows.Forms.Padding(4);
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(136, 29);
             this.txt_name.TabIndex = 6;
@@ -121,17 +122,16 @@
             // txt_ph
             // 
             this.txt_ph.Location = new System.Drawing.Point(304, 238);
-            this.txt_ph.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_ph.Margin = new System.Windows.Forms.Padding(4);
             this.txt_ph.Name = "txt_ph";
             this.txt_ph.Size = new System.Drawing.Size(136, 29);
             this.txt_ph.TabIndex = 7;
-            this.txt_ph.Text = "+251";
             // 
             // rdb_male
             // 
             this.rdb_male.AutoSize = true;
             this.rdb_male.Location = new System.Drawing.Point(55, 379);
-            this.rdb_male.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdb_male.Margin = new System.Windows.Forms.Padding(4);
             this.rdb_male.Name = "rdb_male";
             this.rdb_male.Size = new System.Drawing.Size(90, 26);
             this.rdb_male.TabIndex = 8;
@@ -143,7 +143,7 @@
             // 
             this.rdb_female.AutoSize = true;
             this.rdb_female.Location = new System.Drawing.Point(352, 379);
-            this.rdb_female.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdb_female.Margin = new System.Windows.Forms.Padding(4);
             this.rdb_female.Name = "rdb_female";
             this.rdb_female.Size = new System.Drawing.Size(116, 26);
             this.rdb_female.TabIndex = 9;
@@ -155,7 +155,7 @@
             // 
             this.chkBox1.AutoSize = true;
             this.chkBox1.Location = new System.Drawing.Point(571, 69);
-            this.chkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkBox1.Margin = new System.Windows.Forms.Padding(4);
             this.chkBox1.Name = "chkBox1";
             this.chkBox1.Size = new System.Drawing.Size(170, 26);
             this.chkBox1.TabIndex = 10;
@@ -171,7 +171,7 @@
             "Marketing",
             "Sales"});
             this.checkedListBox1.Location = new System.Drawing.Point(575, 161);
-            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(4);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(164, 124);
             this.checkedListBox1.TabIndex = 11;
@@ -180,7 +180,7 @@
             // 
             this.dgvAdd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAdd.Location = new System.Drawing.Point(785, 1);
-            this.dgvAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvAdd.Margin = new System.Windows.Forms.Padding(4);
             this.dgvAdd.Name = "dgvAdd";
             this.dgvAdd.RowHeadersWidth = 51;
             this.dgvAdd.RowTemplate.Height = 24;
@@ -243,7 +243,7 @@
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_add);
             this.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -27,9 +27,9 @@ namespace WindowsformAppWithLogin
             {
                 MessageBox.Show(" Incorrect!!Try Again");
             }
-            Form1 screen = new Form1(txt_email.Text);
+           /* Form1 screen = new Form1(txt_email.Text);
             screen.Show();
-            this.Hide();
+            this.Hide();*/
         }
 
         private void login_Load(object sender, EventArgs e)

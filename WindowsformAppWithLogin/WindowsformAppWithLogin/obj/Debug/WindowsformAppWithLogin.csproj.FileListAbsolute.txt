@@ -10,3 +10,4 @@ C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\Windowsf
 C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.exe
 C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.pdb
 C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.login.resources
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.MainWindow.resources
