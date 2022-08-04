@@ -32,5 +32,37 @@ namespace WindowsformAppWithLogin
             form1.MdiParent = this;
             form1.Show();
         }
+
+        private void viewEmployeeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+
+
+            }
+
+
+            view view1 = new view();
+
+            view1.MdiParent = this;
+            view1.Show();
+        }
+
+        private void addProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+
+
+            }
+
+
+            addProduct add = new addProduct();
+
+            add.MdiParent = this;
+            add.Show();
+        }
     }
 }

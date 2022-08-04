@@ -46,6 +46,7 @@
             this.lbl_chk = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -179,12 +180,12 @@
             // dgvAdd
             // 
             this.dgvAdd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAdd.Location = new System.Drawing.Point(785, 1);
+            this.dgvAdd.Location = new System.Drawing.Point(747, 4);
             this.dgvAdd.Margin = new System.Windows.Forms.Padding(4);
             this.dgvAdd.Name = "dgvAdd";
             this.dgvAdd.RowHeadersWidth = 51;
             this.dgvAdd.RowTemplate.Height = 24;
-            this.dgvAdd.Size = new System.Drawing.Size(1057, 616);
+            this.dgvAdd.Size = new System.Drawing.Size(1080, 607);
             this.dgvAdd.TabIndex = 12;
             // 
             // lbl_gender
@@ -220,12 +221,23 @@
             this.label1.Size = new System.Drawing.Size(0, 22);
             this.label1.TabIndex = 15;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Modern No. 20", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(283, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(157, 25);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Add Employee";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1840, 619);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbl_chk);
             this.Controls.Add(this.lbl_gender);
@@ -243,8 +255,10 @@
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_add);
             this.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdd)).EndInit();
@@ -273,6 +287,7 @@
         private System.Windows.Forms.Label lbl_chk;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

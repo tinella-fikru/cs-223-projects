@@ -70,6 +70,7 @@
             this.viewEmployeeToolStripMenuItem.Name = "viewEmployeeToolStripMenuItem";
             this.viewEmployeeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.viewEmployeeToolStripMenuItem.Text = "view employee";
+            this.viewEmployeeToolStripMenuItem.Click += new System.EventHandler(this.viewEmployeeToolStripMenuItem_Click);
             // 
             // productToolStripMenuItem
             // 
@@ -84,6 +85,7 @@
             this.addProductToolStripMenuItem.Name = "addProductToolStripMenuItem";
             this.addProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.addProductToolStripMenuItem.Text = "add product";
+            this.addProductToolStripMenuItem.Click += new System.EventHandler(this.addProductToolStripMenuItem_Click);
             // 
             // MainWindow
             // 
