@@ -26,7 +26,10 @@ namespace WindowsformAppWithLogin.Model
             class1.Add(this);
             MessageBox.Show("Query executed");
         }
-
+        public static Class1 findOne(string name)
+        {
+            return class1.Find(c => c.Name == name);
+        }
 
         public static List<Class1> getAllProducts()
         {

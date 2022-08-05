@@ -56,7 +56,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(648, 396);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 0;
@@ -67,7 +67,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(199, 396);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 29);
             this.button2.TabIndex = 1;
@@ -118,15 +118,16 @@
             // txt_pid
             // 
             this.txt_pid.Location = new System.Drawing.Point(210, 104);
-            this.txt_pid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_pid.Margin = new System.Windows.Forms.Padding(4);
             this.txt_pid.Name = "txt_pid";
             this.txt_pid.Size = new System.Drawing.Size(124, 27);
             this.txt_pid.TabIndex = 6;
+            this.txt_pid.TextChanged += new System.EventHandler(this.txt_pid_TextChanged);
             // 
             // txt_pname
             // 
             this.txt_pname.Location = new System.Drawing.Point(688, 104);
-            this.txt_pname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_pname.Margin = new System.Windows.Forms.Padding(4);
             this.txt_pname.Name = "txt_pname";
             this.txt_pname.Size = new System.Drawing.Size(124, 27);
             this.txt_pname.TabIndex = 7;
@@ -134,7 +135,7 @@
             // txt_amount
             // 
             this.txt_amount.Location = new System.Drawing.Point(210, 184);
-            this.txt_amount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_amount.Margin = new System.Windows.Forms.Padding(4);
             this.txt_amount.Name = "txt_amount";
             this.txt_amount.Size = new System.Drawing.Size(124, 27);
             this.txt_amount.TabIndex = 8;
@@ -142,7 +143,7 @@
             // txt_price
             // 
             this.txt_price.Location = new System.Drawing.Point(688, 191);
-            this.txt_price.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_price.Margin = new System.Windows.Forms.Padding(4);
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(124, 27);
             this.txt_price.TabIndex = 9;
@@ -245,7 +246,7 @@
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "addProduct";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "addProduct";

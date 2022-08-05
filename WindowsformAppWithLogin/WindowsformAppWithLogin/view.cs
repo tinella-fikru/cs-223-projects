@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsformAppWithLogin.Model;
 
 namespace WindowsformAppWithLogin
 {
@@ -19,13 +20,21 @@ namespace WindowsformAppWithLogin
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string product;
+            var employees = Class1.findOne(txt_search.Text);
             
-                product = txt_search.Text;
-                if (product== null)
+              
+                if (employees == null)
                 {
                     MessageBox.Show("Employee not found");
                 }
+            else
+            {
+                MessageBox.Show("Employee found");
+                Class1.findOne(employees.Name);
+                
+                dataGridView1.DataSource = null;
+                //dataGridView1.DataSource = view.getAllProducts();
+            }
             
         }
     }
