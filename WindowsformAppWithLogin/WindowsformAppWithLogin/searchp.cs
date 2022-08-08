@@ -11,29 +11,29 @@ using WindowsformAppWithLogin.Model;
 
 namespace WindowsformAppWithLogin
 {
-    public partial class view : Form
+    public partial class searchp : Form
     {
-        public view()
+        public searchp()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var employees = Class1.findOne(txt_search.Text);
-            
-              
-                if (employees == null)
-                {
-                    MessageBox.Show("Employee not found");
-                }
+            var product = Class2.findOne(textBox1.Text);
+
+
+            if (product == null)
+            {
+                MessageBox.Show("Product not found");
+            }
             else
             {
-                MessageBox.Show("Employee found");
-                Class1.findOne(employees.Name);
-                
-            }
+                MessageBox.Show("Product found");
+                Class2.findOne(product.pname);
+
             
+            }
         }
     }
 }

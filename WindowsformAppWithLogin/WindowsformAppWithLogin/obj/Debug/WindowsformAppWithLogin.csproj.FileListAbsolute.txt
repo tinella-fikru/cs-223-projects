@@ -13,3 +13,4 @@ C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\Windowsf
 C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.MainWindow.resources
 C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.view.resources
 C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.addProduct.resources
+C:\Users\tinel\Documents\GitHub\cs-223-projects\WindowsformAppWithLogin\WindowsformAppWithLogin\obj\Debug\WindowsformAppWithLogin.searchp.resources

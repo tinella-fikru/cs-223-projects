@@ -64,5 +64,22 @@ namespace WindowsformAppWithLogin
             add.MdiParent = this;
             add.Show();
         }
+
+        private void searchProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+
+
+            }
+
+
+            searchp add = new searchp();
+
+            add.MdiParent = this;
+            add.Show();
+
+        }
     }
 }

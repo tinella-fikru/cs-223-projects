@@ -9,7 +9,7 @@ namespace WindowsformAppWithLogin.Model
 {
     internal class Class1
     {
-       
+        
         static private List<Class1> class1 = new List<Class1>();
         public string Id { get; set; }
         public string Name { get; set; }
