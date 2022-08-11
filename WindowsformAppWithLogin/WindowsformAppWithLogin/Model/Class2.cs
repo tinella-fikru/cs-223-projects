@@ -12,8 +12,8 @@ namespace WindowsformAppWithLogin.Model
         static private List<Class2> class2 = new List<Class2>();
         public string pid { get; set; }
         public string pname { get; set; }
-        public int amount { get; set; }
-        public int price { get; set; }
+        public string amount { get; set; }
+        public string price { get; set; }
         public bool WR { get; set; }
         public bool SR { get; set; }
 

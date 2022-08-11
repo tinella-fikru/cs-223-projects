@@ -58,9 +58,9 @@ namespace WindowsformAppWithLogin
                     Class2 c = new Class2
                     {
                         pid = (txt_pid.Text),
-                        price=int.Parse(txt_price.Text),
+                        price=(txt_price.Text),
                         pname = (txt_pname.Text),
-                        amount = int.Parse(txt_amount.Text),
+                        amount = (txt_amount.Text),
                         WR = radioButton1.Checked,
                         SR = radioButton2.Checked,
                         
@@ -71,6 +71,9 @@ namespace WindowsformAppWithLogin
                     c.save();
                     dataGridView1.DataSource = null;
                     dataGridView1.DataSource = Class2.getAllProducts();
+                    Panel screen = new Panel();
+                    screen.Show();
+                    this.Hide();
 
                 }
                 catch (Exception)

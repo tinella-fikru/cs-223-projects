@@ -81,5 +81,21 @@ namespace WindowsformAppWithLogin
             add.Show();
 
         }
+
+        private void viewProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+
+
+            }
+
+
+            Panel add = new Panel();
+
+            add.MdiParent = this;
+            add.Show();
+        }
     }
 }

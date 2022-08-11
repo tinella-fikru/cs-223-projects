@@ -35,6 +35,7 @@
             this.productToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,7 +78,8 @@
             // 
             this.productToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addProductToolStripMenuItem,
-            this.searchProductToolStripMenuItem});
+            this.searchProductToolStripMenuItem,
+            this.viewProductToolStripMenuItem});
             this.productToolStripMenuItem.Name = "productToolStripMenuItem";
             this.productToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.productToolStripMenuItem.Text = "Product";
@@ -95,6 +97,13 @@
             this.searchProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.searchProductToolStripMenuItem.Text = "search product";
             this.searchProductToolStripMenuItem.Click += new System.EventHandler(this.searchProductToolStripMenuItem_Click);
+            // 
+            // viewProductToolStripMenuItem
+            // 
+            this.viewProductToolStripMenuItem.Name = "viewProductToolStripMenuItem";
+            this.viewProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.viewProductToolStripMenuItem.Text = "view Product";
+            this.viewProductToolStripMenuItem.Click += new System.EventHandler(this.viewProductToolStripMenuItem_Click);
             // 
             // MainWindow
             // 
@@ -123,5 +132,6 @@
         private System.Windows.Forms.ToolStripMenuItem productToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addProductToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem searchProductToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewProductToolStripMenuItem;
     }
 }
