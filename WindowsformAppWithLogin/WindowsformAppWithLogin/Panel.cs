@@ -21,7 +21,7 @@ namespace WindowsformAppWithLogin
         private void label1_Click(object sender, EventArgs e)
         {
             panel2.BackColor = Color.Gray;
-            panel3.Top =50;
+            panel3.Top = 50;
             panel3.BackColor = Color.Black;
 
         }
@@ -58,9 +58,17 @@ namespace WindowsformAppWithLogin
                 p.productid = item.pid;
                 p.amount = item.amount;
                 p.price = item.price;
-                
+                p.Click += (object o, EventArgs e2) =>
+                {
+
+                    Form2 screen = new Form2(item.pname, item.pid, item.amount, item.price);
+                    screen.Show();
+                    this.Hide();
+                    
+                };
                 flowLayoutPanel1.Controls.Add(p);
             }
+
         }
     }
 }
