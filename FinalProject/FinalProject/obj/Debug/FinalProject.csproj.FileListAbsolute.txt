@@ -11,3 +11,13 @@ C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\obj\De
 C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\obj\Debug\FinalProject.exe
 C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
 C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\obj\Debug\FinalProject.MainPage.resources
+C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\bin\Debug\System.Security.AccessControl.dll
+C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\bin\Debug\System.Security.Permissions.dll
+C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\bin\Debug\System.Security.AccessControl.xml
+C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\bin\Debug\System.Security.Permissions.xml
+C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\obj\Debug\FinalProject.venue.resources
+C:\Users\tinel\Documents\GitHub\cs-223-projects\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete

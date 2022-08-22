@@ -24,7 +24,8 @@ namespace FinalProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            System.Environment.Exit(0);
+            venue v1 = new venue();
+            v1.Show();
         }
     }
 }

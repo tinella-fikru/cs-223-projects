@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FinalProject.model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,6 +46,11 @@ namespace FinalProject
             Form1 form1 = new Form1();
           //  form1.MdiParent = this;
             form1.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Class1 c1 = new Class1();
         }
     }
 }
