@@ -21,21 +21,25 @@ namespace FinalProject.model
                 Console.WriteLine("\t{0}",sdr.GetString(0));
             }
     con.Close();*/
-        string path = ConfigurationManager.ConnectionStrings["dbcs"].ConnectionString;
+        string path = "server=TINELLA\\SQLEXPRESS; Database=final_project;Integrated Security=true;";// ConfigurationManager.ConnectionStrings["dbcs"].ConnectionString;
         SqlConnection con;
         public Class1()
         {
-            try
+            MessageBox.Show("U r here");
+            con = new SqlConnection();
+            //try
             {
-                con = new SqlConnection();
                 con.ConnectionString = path;
                 con.Open();
                 MessageBox.Show("connection is successful");
-               // con.Close();
+                con.Close();
+                MessageBox.Show("U r here again");
             }
-            catch(SqlException ex)
-            { MessageBox.Show(ex.Message); }
-            finally { con.Close(); }
+            //catch(SqlException ex)
+            //{ 
+            //    MessageBox.Show(ex.Message); 
+            //}
+            //finally { con.Close(); }
         }
 
         static private List<Class1> class1 = new List<Class1>();

@@ -51,6 +51,7 @@ namespace FinalProject
         private void button2_Click(object sender, EventArgs e)
         {
             Class1 c1 = new Class1();
+            //MessageBox.Show("U r here");
         }
     }
 }
