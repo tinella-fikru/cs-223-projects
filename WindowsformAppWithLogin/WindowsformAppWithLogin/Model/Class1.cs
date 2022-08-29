@@ -32,7 +32,7 @@ namespace WindowsformAppWithLogin.Model
                 connection.Open();
                 MessageBox.Show("connection successful!!!");
 
-                string Query = "insert into employee values(" + this.Id + ", '" + this.Name + "',  '" + "', '" + this.phone + "')";
+                string Query = "insert into employee values(" + this.Id + ", '" + this.Name + "', '" + this.phone + "')";
 
                 SqlCommand cmd = new SqlCommand(Query, connection);
 

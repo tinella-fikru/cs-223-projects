@@ -35,9 +35,9 @@ namespace WindowsformAppWithLogin.Model
                 SqlCommand cmd = new SqlCommand(Query, connection);
 
                 var result = cmd.ExecuteNonQuery();
-                
-                int rowsAffected = cmd.ExecuteNonQuery();
                 connection.Close();
+                int rowsAffected = cmd.ExecuteNonQuery();
+                
                 if (rowsAffected > 0)
                 {
 
